@@ -1,5 +1,5 @@
 * {
-    font-family: 'Pattaya', sans-serif;
+  font-family: "Pattaya", sans-serif;
 }
 
 /* nav */
@@ -23,7 +23,7 @@
   list-style: none;
 }
 .nav-list li:hover {
-    background-color: lightslategrey;
+  background-color: lightslategrey;
 }
 
 @media (max-width: 28.75em) {
@@ -35,49 +35,48 @@
     margin: 0 1rem;
   }
 
-.nav-list a {
-  display: block;
-  font-size: 2.2rem;
-  padding: 2rem;
-}
+  .nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
 
-.nav-list a:hover {
-  background: var(--main-blue);
-}
+  .nav-list a:hover {
+    background: var(--main-blue);
+  }
 }
 
 h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 h2 {
-    padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 }
 h4 {
-    padding: 0 20px 0 20px;
-    font-size: 20px;
-    color: black
+  padding: 0 20px 0 20px;
+  font-size: 20px;
+  color: black;
 }
 a {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 a:visited {
-    color: orange;
+  color: orange;
 }
-.red-divider{
-    background: red;
-    width: 200px;
-    height: 3px;
-    margin: 0 auto;
+.red-divider {
+  background: red;
+  width: 200px;
+  height: 3px;
+  margin: 0 auto;
 }
- 
+
 /* header */
 #welcome-section {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
   width: 100%;
   height: 100vh;
   background-color: whitesmoke;
@@ -85,21 +84,19 @@ a:visited {
 
 /* Portfolio body */
 
-.project-tile{
-    background-color: slategrey;
-    position: float;
-    width: auto;
-    column-count: 2;
+.project-tile {
+  background-color: slategrey;
+  width: auto;
+  column-count: 2;
 }
-.project-tile .thumbnail img{
-    width: 100%;
-    height: 100%;
-    filter: grayscale(100%);
-    -webkit-filter-: grayscale(100%);
+.project-tile .thumbnail img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  -webkit-filter-: grayscale(100%);
 }
-.project-tile .thumbnail img:hover{
-    filter: none;
-    -webkit-filter-: none;
+.project-tile .thumbnail img:hover {
+  filter: none;
 }
 
 .thumbnail {
@@ -107,12 +104,12 @@ a:visited {
   float: right;
 }
 #contact {
-    text-align: right;
-    padding: 20px 0 20px 0;
+  text-align: right;
+  padding: 20px 0 20px 0;
 }
 .icon {
-    padding: 0 20px 0 20px;   
+  padding: 0 20px 0 20px;
 }
 footer {
-    text-align: center;
+  text-align: center;
 }
