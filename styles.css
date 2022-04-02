@@ -45,11 +45,11 @@ h4 {
   color: black;
 }
 a {
-  color: orangered;
+  color: black;
   font-size: 18px;
 }
 a:visited {
-  color: rgb(245, 163, 10);
+  color: white;
 }
 .red-divider {
   background: red;
